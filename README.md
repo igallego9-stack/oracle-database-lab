@@ -2,4 +2,3 @@
 Training repository for Oracle Database administration, testing, change management and Git workflows.  
 Name: Israel Gallego Martínez
 Professor: Richard Aviles Lopez test
-test
