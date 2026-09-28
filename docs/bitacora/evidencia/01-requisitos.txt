@@ -1,0 +1,13 @@
+=== VERIFICACIÓN DE REQUISITOS DEL SISTEMA ===
+
+--- RAM Disponible ---
+               total        used        free      shared  buff/cache   available
+Mem:           5.8Gi       814Mi       4.6Gi        49Mi       658Mi       5.0Gi
+Swap:          2.0Gi        84Ki       2.0Gi
+
+--- Procesadores ---
+4
+
+--- Espacio en Disco ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.0G  954G   1% /

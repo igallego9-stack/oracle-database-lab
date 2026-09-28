@@ -1,0 +1,12 @@
+=== VERIFICACIÓN DE DOCKER DESKTOP / WSL ===
+
+--- Estado de Docker ---
+ Containers: 0
+ Server Version: 29.8.0
+ Operating System: Docker Desktop
+ CPUs: 4
+ Total Memory: 5.788GiB
+
+--- Imágenes disponibles ---
+IMAGE                                                ID             DISK USAGE   CONTENT SIZE   EXTRA
+container-registry.oracle.com/database/free:latest   f988b0c04c4c       13.8GB         3.71GB        
