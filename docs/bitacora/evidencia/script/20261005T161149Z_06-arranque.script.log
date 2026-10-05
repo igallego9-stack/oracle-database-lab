@@ -1,0 +1,74 @@
+== Esperando a que oralab-26ai este healthy (max. 5 min) ==
+ intento 1: healthy
+== Estado final ==
+oralab-26ai Up 5 minutes (healthy)
+== Registro de arranque (docker logs) ==
+Starting Oracle Net Listener.
+Oracle Net Listener started.
+Starting Oracle AI Database instance FREE.
+Oracle AI Database instance FREE started.
+
+The Oracle base remains unchanged with value /opt/oracle
+
+SQL*Plus: Release 23.26.3.0.0 - Production on Mon Oct 5 16:06:01 2026
+Version 23.26.3.0.0
+
+Copyright (c) 1982, 2026, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free
+Version 23.26.3.0.0
+
+SQL> 
+User altered.
+
+SQL> 
+User altered.
+
+SQL> 
+Session altered.
+
+SQL> 
+User altered.
+
+SQL> Disconnected from Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free
+Version 23.26.3.0.0
+#########################
+DATABASE IS READY TO USE!
+#########################
+The following output is now a tail of the alert.log:
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2026-10-05T16:06:00.448626+00:00
+PDB$SEED(2):Opening pdb with Resource Manager plan: DEFAULT_PLAN
+FREEPDB1(3):Autotune of undo retention is turned on. 
+2026-10-05T16:06:01.056473+00:00
+FREEPDB1(3):Opening pdb with Resource Manager plan: DEFAULT_PLAN
+Completed: Pluggable database FREEPDB1 opened read write 
+Completed: ALTER DATABASE OPEN
+2026-10-05T16:06:01.676174+00:00
+FREEPDB1(3):TABLE AUDSYS.AUD$UNIFIED: ADDED INTERVAL PARTITION SYS_P496 (4480) VALUES LESS THAN (TIMESTAMP' 2026-10-06 00:00:00')
+2026-10-05T16:06:01.996812+00:00
+===========================================================
+Dumping current patch information
+===========================================================
+No patches have been applied
+===========================================================
+2026-10-05T16:06:02.251219+00:00
+FREEPDB1(3):Resize operation completed for file# 13, fname /opt/oracle/oradata/FREE/FREEPDB1/sysaux01.dbf, old size 409600K, new size 419840K
+2026-10-05T16:06:03.973680+00:00
+TABLE SYS.WRP$_REPORTS: ADDED AUTOLIST FRAGMENT SYS_P656 (3) VALUES (( 1509902213, TO_DATE(' 2026-10-05 00:00:00', 'syyyy-mm-dd hh24:mi:ss', 'nls_calendar=gregorian') ))
+TABLE SYS.WRP$_REPORTS_DETAILS: ADDED AUTOLIST FRAGMENT SYS_P657 (3) VALUES (( 1509902213, TO_DATE(' 2026-10-05 00:00:00', 'syyyy-mm-dd hh24:mi:ss', 'nls_calendar=gregorian') ))
+TABLE SYS.WRP$_REPORTS_TIME_BANDS: ADDED AUTOLIST FRAGMENT SYS_P660 (3) VALUES (( 1509902213, TO_DATE(' 2026-10-05 00:00:00', 'syyyy-mm-dd hh24:mi:ss', 'nls_calendar=gregorian') ))
+2026-10-05T16:06:02.558102+00:00
+--ATTENTION--
+Time drifted backward by (1000000) micro seconds at 1791216363 whereas allowed drift is 5000000
+2026-10-05T16:06:08.354529+00:00
+--ATTENTION--
+Time stall, backward drift ended at 1791216368 with drift 5000000
+2026-10-05T16:10:24.583103+00:00
+--ATTENTION--
+Time drifted backward by (1000000) micro seconds at 1791216625 whereas allowed drift is 5000000
+2026-10-05T16:10:30.214014+00:00
+--ATTENTION--
+Time stall, backward drift ended at 1791216630 with drift 5000000
