@@ -1,0 +1,31 @@
+
+Session altered.
+
+
+Session altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Index created.
+
+
+Index created.
+
+
+Session altered.
+
+ nombre_completo VARCHAR2(200) NOT NUL
+                                   *
+ERROR at line 4:
+ORA-02000: missing NULL keyword
+Help: https://docs.oracle.com/error-help/db/ora-02000/
+
+
