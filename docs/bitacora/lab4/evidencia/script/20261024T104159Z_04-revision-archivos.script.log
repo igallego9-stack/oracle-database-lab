@@ -1,0 +1,12 @@
+== Migraciones ==
+V000__setup_entornos_negocio.sql
+V001__create_esquemas_negocio.sql
+V002__datos_demo_academia.sql
+V003__cuentas_esquema_sin_password.sql
+== APP_USER ==
+config/.env.example:6:APP_USER_PWD=change_me_too
+== 05 y 8181 ==
+4:#  - Ya no publica 8181: ORDS se instaló en Linux (Parte M del Lab 3) y escucha en $ORDS_PORT (8080),
+5:#    fuera del contenedor; dentro del contenedor nadie escuchaba en 8181.
+== 08 y sys/ ==
+4:# Cambios frente al Lab 3: ya no pasa "sys/<contraseña>@..." en la línea de comandos (se veía con ps
