@@ -16,6 +16,8 @@ END;
 /
 GRANT CREATE SESSION, SET CONTAINER TO c##ops_ro CONTAINER = ALL;
 GRANT SELECT_CATALOG_ROLE TO c##ops_ro CONTAINER = ALL;
+-- Lab 5 P.1: el runbook de salud diaria lee v$diag_alert_ext; SELECT_CATALOG_ROLE no cubre las vistas fijas V_$.
+GRANT SELECT ON v_$diag_alert_ext TO c##ops_ro;
 ALTER USER c##ops_ro SET CONTAINER_DATA = ALL CONTAINER = CURRENT;
 PROMPT == Verificación: la cuenta existe en todos los contenedores ==
 SET LINESIZE 120 PAGESIZE 50
