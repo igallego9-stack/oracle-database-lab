@@ -1,0 +1,9 @@
+== EVIDENCIA alumno=E022 hora=2026-11-24T14:58:50Z origen=08-guardia-incidente2
+== EVIDENCIA contenedor=7f9d45f8d577 dbid=1509902213 arranque=2026-11-24T14:27:20 scn=9443759
+
++----------------------------------------------------------------------------+
+| TICKET INC-602 · prioridad CRÍTICA · 14:58 UTC                             |
+| Equipo de matrículas: «Desde hace unos minutos ninguna instancia de la     |
+| aplicación conecta. El error dice: ORA-12514. ¿Está caída la base?»        |
++----------------------------------------------------------------------------+
+

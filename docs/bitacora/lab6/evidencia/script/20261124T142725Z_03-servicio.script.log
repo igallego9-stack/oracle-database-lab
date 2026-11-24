@@ -1,0 +1,32 @@
+== EVIDENCIA alumno=E022 hora=2026-11-24T14:27:26Z origen=03-servicio
+== EVIDENCIA contenedor=7f9d45f8d577 dbid=1509902213 arranque=2026-11-24T14:27:20 scn=9431863
+
+Session altered.
+
+Servicio academia_app creado
+Servicio academia_app arrancado
+
+PL/SQL procedure successfully completed.
+
+== Qué servicios EXISTEN (diccionario de la PDB) ==
+
+NAME		 NETWORK_NAME	  PDB
+---------------- ---------------- ----------
+FREEPDB1	 FREEPDB1	  FREEPDB1
+academia_app	 academia_app	  FREEPDB1
+
+2 rows selected.
+
+== Cuáles están ARRANCADOS ahora (y por tanto se anuncian al listener) ==
+
+NAME		     CON_ID
+---------------- ----------
+academia_app		  3
+freepdb1		  3
+
+2 rows selected.
+
+== Que sobreviva a un reinicio: se guarda el estado CON el servicio arrancado ==
+
+Pluggable database altered.
+
