@@ -1,0 +1,10 @@
+== EVIDENCIA alumno=E022 hora=2026-11-24T14:26:58Z origen=03-servicio
+== EVIDENCIA base=no-disponible (hora de Ubuntu: la base no respondía)
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
