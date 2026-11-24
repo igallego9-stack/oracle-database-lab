@@ -107,7 +107,9 @@ C##; las cuentas comunes deben empezar por C##; APP_ACADEMIA es local (COMMON=NO
 | `CDB_USERS` |37 y 47|47|`ORA-00942`|
 | `V$DATAFILE` |17|10|`ORA-00942`|
 
-_(explica aquí una diferencia con tus palabras)_
+La raíz ve 37 usuarios y 17 datafiles, mientras que la PDB ve 47 y 10, porque DBA_ y V$ solo muestran el contenedor actual.
+CDB_USERS desde la raíz ve 37 y 47, pero desde la PDB solo ve 47.
+APP_ACADEMIA recibe ORA-00942 en DBA_USERS, CDB_USERS y V$DATAFILE porque no tiene privilegio de catálogo, aunque ALL_TABLES le muestra 1 tabla(s) porque tiene un grant sobre ella.
 
 **Evidencia:** `script/20261124T143544Z_04-tres-miradas.script.log`
 

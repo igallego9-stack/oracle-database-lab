@@ -1,5 +1,5 @@
-== EVIDENCIA alumno=E022 hora=2026-11-24T15:13:05Z origen=09-verificacion-final
-== EVIDENCIA contenedor=7f9d45f8d577 dbid=1509902213 arranque=2026-11-24T14:27:20 scn=9445441
+== EVIDENCIA alumno=E022 hora=2026-11-24T17:17:27Z origen=09-verificacion-final
+== EVIDENCIA contenedor=7f9d45f8d577 dbid=1509902213 arranque=2026-11-24T14:27:20 scn=9463473
 == Parte A · Punto de partida ==
   [OK]    copia backups/20261123T163922Z_lab6-inicio íntegra
   [OK]    CDB abierta y en ARCHIVELOG (herencia del Lab 5) (READWRITE/ARCHIVELOG)
@@ -46,17 +46,17 @@
   [OK]    evidencia 06
   [OK]    evidencia 07
   [OK]    evidencia 08
-  [FALLO] faltan las respuestas  -> repasa Parte J
+  [OK]    respuestas en docs/bitacora/lab6-respuestas.md
   [OK]    config/.env fuera de Git
   [OK]    ningún archivo de la base en Git
 == Uso de IA y autoría (las mismas reglas que aplica el docente) ==
   [OK]    login.sql con tu código (prompt de SQLcl)
   [OK]    código de alumno E022 en config/.env
-  [OK]    docs/bitacora/lab6-ia.md con 9 entrada(s) declarada(s)
+  [OK]    docs/bitacora/lab6-ia.md con 10 entrada(s) declarada(s)
   [OK]    primera línea: «He leído la política de uso de IA de la asignatura.»
   [OK]    ningún archivo de agente de IA (.claude/, CLAUDE.md, AGENTS.md, .cursor/…)
   [OK]    ningún commit con firma o coautor de IA (lab5-final..HEAD)
   [OK]    respuestas sin marcas de texto generado
   [OK]    33 evidencias con tu cabecera (E022) y una sola base de datos
 
-RESULTADO: 1 FALLO(S). Corrige antes de abrir el PR.
+RESULTADO: TODO OK. Lab 6 listo para entregar.
